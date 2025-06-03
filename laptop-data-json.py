@@ -9,7 +9,7 @@ from selenium import webdriver, webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://webscraper.io/test-sites/e-commerce/static/computers/laptops')
 time.sleep(3)
